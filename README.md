@@ -25,24 +25,14 @@ See the timestamp on the Title bar of the file
 ## Finish timestamp on an AWS EKS cluster
 
 ```shell
-EKS node w2oGroup
-
-https://docs.aws.amazon.com/eks/latest/userguide/launch-workers.html
-
-eksctl create nodegroup \
---cluster default \
---version auto \
---name standard-workers \
---node-type t3.medium \
---node-ami auto \
---nodes 3 \
---nodes-min 1 \
---nodes-max 4
 
 
+$ eksctl create cluster --name w2o02 --without-nodegroup
 
-$ pwd
-/home/yxiao/Documents/LEARNING/AWS/ECS_Fargate_EKS/W2Oa
+
+$ eksctl get cluster w2o02
+NAME	VERSION	STATUS	CREATED			VPC			SUBNETS				SECURITYGROUPS
+w2o02	1.14	ACTIVE	2020-04-14T01:54:45Z	vpc-0eee5bb0ddab889a1	subnet-00f7b93aa3905a783,subnet-082e235751b82eabf,subnet-0883a895ee66d5e2e,subnet-094b9b917e7438b5c	sg-04a0536ab633d9bd0
 
 
 eksctl create nodegroup \
