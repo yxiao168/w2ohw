@@ -46,7 +46,7 @@ https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html
 https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.html
 
 
-### Detailed steps for EKS creation and orchestration of the application on EKS
+#### Detailed steps for EKS creation and orchestration of the application on EKS
 https://docs.aws.amazon.com/eks/latest/use
 
 
