@@ -24,6 +24,7 @@ See the timestamp on the Title bar of the file
 
 ## Finish timestamp on an AWS EKS cluster
 
+```shell
 EKS node w2oGroup
 
 https://docs.aws.amazon.com/eks/latest/userguide/launch-workers.html
@@ -115,6 +116,8 @@ kubernetes   ClusterIP      10.100.0.1       <none>                             
 
 $ date
 Mon Apr 13 23:18:30 EDT 2020
+
+```
 
 ![Finish timestamp](AWS-deployment.png)
 
