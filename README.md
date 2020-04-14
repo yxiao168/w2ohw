@@ -9,4 +9,8 @@ See file "w2oGroup- DevOps Test and Itinerary.pdf"
 
 2020-04-13 21-21-29
 
-![Finish timestamp]("Screenshot from 2020-04-13 21-21-29.png")
+See the timestamp on the Title bar of the file
+ 	"Screenshot from 2020-04-13 21-21-29.png"
+
+
+![Finish timestamp](Screenshot from 2020-04-13 21-21-29.png)
