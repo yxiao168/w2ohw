@@ -13,8 +13,8 @@ See file "w2oGroup- DevOps Test and Itinerary.pdf"
 
 ### Detailed Design Considersation
 
-1. The size of the node group could be adjusted later.
-2. The CloudWatch log group items could be turned on for QA stage/environment; and turned off for production environment.
+1. The size of the node group could be adjusted later. AutoScaling is achieved by Kubernetes Cluster Autoscaler.
+2. The CloudWatch log group items could be turned on for QA stage/environment; and turned off for production environment. Metrics Server could also be installed for QA stage/environment.
 3. The web security of the load balancer could be enhanced with AWS WAF. 
 4. The access control to the application and EKS cluster would be fine-tuned by NACL, Security group and IAM roles. 
 
