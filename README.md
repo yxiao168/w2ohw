@@ -5,7 +5,21 @@ The code for W2O's "Take Home Challenge to be completed by Candidate"
 ## Requirement
 See file "w2oGroup- DevOps Test and Itinerary.pdf"
 
-## Docker image
+## Design Considersation
+
+### The diagram of workflow
+![workflow](workflow.png)
+
+
+### Detailed Design Considersation
+
+1. The size of the node group could be adjusted later.
+2. The CloudWatch log group items could be turned on for QA stage/environment; and turned off for production environment.
+3. The web security of the load balancer could be enhanced with AWS WAF. 
+4. The access control to the application would be fine-tuned by NACL, Security group and IAM roles. 
+
+
+## Docker image of the "Hello world!" application
 https://hub.docker.com/r/yanmingxiao/docker.test
 
 
