@@ -5,6 +5,10 @@ The code for W2O's "Take Home Challenge to be completed by Candidate"
 ## Requirement
 See file "w2oGroup- DevOps Test and Itinerary.pdf"
 
+## Docker image
+https://hub.docker.com/r/yanmingxiao/docker.test
+
+
 ## Finish timestamp
 
 2020-04-13 21-21-29
