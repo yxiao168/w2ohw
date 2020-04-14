@@ -24,7 +24,18 @@ See the timestamp on the Title bar of the file
 
 ## Finish timestamp on an AWS EKS cluster
 
+
+#### install eksctl
+https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html
+
+#### install aws-iam-authenticator
+https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.html
+
+
+
+
 ```shell
+
 
 
 $ eksctl create cluster --name w2o02 --without-nodegroup
