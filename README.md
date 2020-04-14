@@ -131,6 +131,13 @@ NAME         TYPE           CLUSTER-IP       EXTERNAL-IP                        
 dockertest   LoadBalancer   10.100.232.115   a92b4e69359814b1f9db546b1c680734-308891860.us-east-1.elb.amazonaws.com   8080:31706/TCP   10s
 kubernetes   ClusterIP      10.100.0.1       <none>                                                                   443/TCP          61m
 
+$ curl http://a92b4e69359814b1f9db546b1c680734-308891860.us-east-1.elb.amazonaws.com:8080/hello
+{
+    "message": "hello world"
+}
+$ curl http://a92b4e69359814b1f9db546b1c680734-308891860.us-east-1.elb.amazonaws.com:8080
+V3.0 of helloworld in a Docker container!$ 
+
 
 $ date
 Mon Apr 13 23:18:30 EDT 2020
